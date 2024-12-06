@@ -54,8 +54,8 @@ const Pricing = () => {
   return (
     <div id="mainContainer">
       <header className="pricing-header">
-        <h1>Pricing Plans</h1>
-        <p>Choose the plan that fits your needs best.</p>
+        <h1></h1>
+        <p></p>
       </header>
       <div
         className="pricing-container"
