@@ -9,4 +9,12 @@ export default defineConfig({
       "slick-carousel": "node_modules/slick-carousel",
     },
   },
+  build: {
+    rollupOptions: {
+      input: "./index.html", // Ensure the build uses index.html as the entry point
+    },
+  },
+  server: {
+    open: true, // Automatically open the app in the browser when running locally
+  },
 });
