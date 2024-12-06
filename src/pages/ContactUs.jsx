@@ -65,7 +65,7 @@ const ContactUs = () => {
     }
 
     try {
-      await fetch("https://formsubmit.co/ajax/ruan.dejongh19@gmail.com", {
+      await fetch("https://formsubmit.co/ajax/ruan.dejongh19@gmail.com,info@waltsolution.co.za,training@safeskill.co.za", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -73,6 +73,8 @@ const ContactUs = () => {
         },
         body: JSON.stringify(formData),
       });
+    
+    
       // Show confetti and success message
       setShowConfetti(true);
       setSuccessMessage(true);
