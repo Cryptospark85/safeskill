@@ -3,7 +3,7 @@ import { NavbarMenu } from "../../mockData/data";
 import { MdMenu } from "react-icons/md";
 import ResponsiveMenu from "./ResponsiveMenu";
 import { motion } from "framer-motion";
-import SafeskillLogo from "C:/Users/ADMIN/OneDrive/Desktop/website_safeskill/src/assets/Safeskill_logo.png";
+import SafeskillLogo from "../../assets/Safeskill_logo.png"; // Updated relative path
 
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
