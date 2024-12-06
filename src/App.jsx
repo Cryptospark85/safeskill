@@ -11,7 +11,8 @@ import WhyChoose from "./components/WhyChooose/WhyChooose";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import PopiAct from "./pages/PopiAct";
-import Pricing from "./pages/pricing";
+import Pricing from './pages/Pricing';
+
 
 const App = () => {
   return (
