@@ -182,9 +182,9 @@ const PopiAct = () => {
             <h3>Contact Information</h3>
             {openSections["contact"] && (
               <ul>
-                <li>Email: [Email Address]</li>
-                <li>Phone: [Phone Number]</li>
-                <li>Address: [Physical Address]</li>
+                <li>Email: [Info@waltsolution.co.za, training@safeskill.co.za]</li>
+                <li>Phone: [+27 79 507 5090]</li>
+                <li>Address: [SafeSkill (Pty) Ltd., 105 Edison Blvd, Edison Business Park Shop Nr1, Block A, CE6, Vanderbijlpark, 1900]</li>
               </ul>
             )}
           </div>

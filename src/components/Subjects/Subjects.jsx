@@ -1,71 +1,71 @@
 import React from "react";
 import { motion } from "framer-motion";
-import {
-  FaHardHat,
-  FaExclamationTriangle,
-  FaUtensils,
-  FaFlask,
-  FaLandmark,
-  FaBrain,
-  FaLaptopCode,
-  FaFutbol,
+import { 
+  FaChair, 
+  FaShieldAlt, 
+  FaMedkit, 
+  FaFireExtinguisher, 
+  FaClipboard, 
+  FaCertificate, 
+  FaPeopleCarry, 
+  FaMountain 
 } from "react-icons/fa";
 
-const subjectList = [
+const data = [
   {
     id: 1,
-    name: "Engineering",
-    icon: <FaHardHat />,
-    color: "#FF0000",
+    name: "Ergonomics",
+    icon: <FaChair />, // Represents comfortable and proper seating/work posture
+    color: "#0078FF", // Changed to a professional blue
     delay: 0.2,
   },
   {
     id: 2,
-    name: "Safety Training",
-    icon: <FaExclamationTriangle />,
-    color: "#FF0000",
+    name: "Health & Safety",
+    icon: <FaShieldAlt />, // Represents protection and safety
+    color: "#0078FF",
     delay: 0.3,
   },
   {
     id: 3,
-    name: "Cooking",
-    icon: <FaUtensils />,
-    color: "#FF0000",
+    name: "First Aid",
+    icon: <FaMedkit />, // Represents a first aid kit
+    color: "#0078FF",
     delay: 0.4,
   },
   {
     id: 4,
-    name: "Science",
-    icon: <FaFlask />,
-    color: "#FF0000",
+    name: "Fire Fighting",
+    icon: <FaFireExtinguisher />, // Represents fire safety equipment
+    color: "#FF4500", // Fire-inspired orange-red
     delay: 0.5,
   },
   {
     id: 5,
-    name: "History",
-    icon: <FaLandmark />,
-    color: "#FF0000",
+    name: "Office Management",
+    icon: <FaClipboard />, // Represents task and document management
+    color: "#0078FF",
     delay: 0.6,
   },
   {
     id: 6,
-    name: "Psychology",
-    icon: <FaBrain />,
-    color: "#FF0000",
+    name: "ISO Standards",
+    icon: <FaCertificate />, // Represents quality certification
+    color: "#0078FF",
     delay: 0.7,
   },
   {
     id: 7,
-    name: "Web Design",
-    icon: <FaLaptopCode />,
-    color: "#FF0000",
+    name: "Behavior Base Care",
+    icon: <FaPeopleCarry />, // Represents teamwork and behavior care
+    color: "#0078FF",
     delay: 0.8,
   },
   {
     id: 8,
-    name: "Sports",
-    icon: <FaFutbol />,
-    color: "#FF0000",
+    name: "Working at Heights",
+    icon: <FaMountain />, // Represents working at elevated places
+    color: "#0078FF",
     delay: 0.9,
   },
 ];
